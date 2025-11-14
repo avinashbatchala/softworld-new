@@ -4,7 +4,7 @@
       <div class="logo">
         <router-link to="/">
           <div class="logo-mark">ST</div>
-          <span class="logo-text">SmoothTech</span>
+          <span class="logo-text">Softworld</span>
         </router-link>
       </div>
 

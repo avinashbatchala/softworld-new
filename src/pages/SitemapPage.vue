@@ -5,7 +5,7 @@
     <section class="section">
       <div class="container">
         <div class="policy-content">
-          <p>Welcome to the sitemap of SmoothTech. This page provides an overview of all the pages available on our website to help you navigate through our content easily.</p>
+          <p>Welcome to the sitemap of Softworld. This page provides an overview of all the pages available on our website to help you navigate through our content easily.</p>
 
           <div class="sitemap-grid">
             <div class="sitemap-section">
@@ -42,7 +42,7 @@
               <ul class="sitemap-links">
                 <li><router-link to="/find-talent">Find Talent</router-link></li>
                 <li><router-link to="/find-job">Find Job</router-link></li>
-                <li><router-link to="/careers">Careers at SmoothTech</router-link></li>
+                <li><router-link to="/careers">Careers at Softworld</router-link></li>
                 <li><router-link to="/team">Our Team</router-link></li>
               </ul>
             </div>

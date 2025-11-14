@@ -19,7 +19,7 @@
         <div class="talent-grid">
           <div class="talent-content">
             <h2>Expert Talent On Demand</h2>
-            <p>SmoothTech connects businesses with highly-skilled technology professionals across various disciplines. Whether you need a full team for a major project or specialized expertise for a specific challenge, we have the talent network to meet your needs.</p>
+            <p>Softworld connects businesses with highly-skilled technology professionals across various disciplines. Whether you need a full team for a major project or specialized expertise for a specific challenge, we have the talent network to meet your needs.</p>
             <p>Our rigorous vetting process ensures that you only work with top-tier professionals who bring both technical excellence and business acumen to your projects.</p>
             <div class="talent-stats">
               <div class="stat-item">
@@ -116,7 +116,7 @@
         <div class="testimonials-slider">
           <div class="testimonial-card">
             <div class="testimonial-content">
-              <p>"SmoothTech helped us build our engineering team from scratch. The quality of talent they provided allowed us to accelerate our product roadmap by months."</p>
+              <p>"Softworld helped us build our engineering team from scratch. The quality of talent they provided allowed us to accelerate our product roadmap by months."</p>
             </div>
             <div class="testimonial-author">
 <!--              <img src="@/assets/media/pages/about/user.png" alt="Client headshot" class="author-image">-->
@@ -128,7 +128,7 @@
           </div>
           <div class="testimonial-card">
             <div class="testimonial-content">
-              <p>"We needed specialized expertise in machine learning for a critical project. SmoothTech matched us with the perfect candidate within days, and the results exceeded our expectations."</p>
+              <p>"We needed specialized expertise in machine learning for a critical project. Softworld matched us with the perfect candidate within days, and the results exceeded our expectations."</p>
             </div>
             <div class="testimonial-author">
 <!--              <img src="@/assets/media/pages/about/user.png" alt="Client headshot" class="author-image">-->

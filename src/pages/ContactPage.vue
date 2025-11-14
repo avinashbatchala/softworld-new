@@ -150,7 +150,7 @@
               </div>
               <div class="info-content">
                 <h3>Email</h3>
-                <p><a href="mailto:info@SmoothTech.com">info@SmoothTech.com</a><br>
+                <p><a href="mailto:info@Softworld.com">info@Softworld.com</a><br>
                   <span class="info-detail">We'll respond within 24 hours</span></p>
               </div>
             </div>
@@ -202,7 +202,7 @@
               <i class="icon-location"></i>
             </div>
             <div class="map-info-content">
-              <h3>SmoothTech HQ</h3>
+              <h3>Softworld HQ</h3>
               <p>60 Swackhammer Way<br>Budd Lake, NJ 07828</p>
               <a href="https://maps.google.com/?q=60+Swackhammer+Way,+Budd+Lake,+NJ+07828" target="_blank" class="map-directions">Get Directions →</a>
             </div>

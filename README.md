@@ -1,5 +1,5 @@
 
-# Deployment Guide for smoothteky.com
+# Deployment Guide for softworldusa.com
 
 This guide explains how to update and redeploy the Vue.js app hosted on an EC2 instance and maintain HTTPS using Let's Encrypt.
 
@@ -16,7 +16,7 @@ ssh -i your-key.pem ubuntu@your-ec2-ip
 Navigate to your project folder:
 
 ```bash      q
-cd /home/ubuntu/smoothtech
+cd /home/ubuntu/softworld-new
 ```
 
 Pull the latest changes from the main branch:
@@ -89,7 +89,7 @@ Reload Nginx:
 sudo systemctl reload nginx
 ```
 
-The new version should now be live at `https://smoothteky.com`
+The new version should now be live at `https://softworldusa.com`
 
 ---
 
@@ -112,7 +112,7 @@ sudo certbot renew
 ### 🔍 Check Expiry Date:
 
 ```bash
-sudo openssl x509 -enddate -noout -in /etc/letsencrypt/live/smoothteky.com/fullchain.pem
+sudo openssl x509 -enddate -noout -in /etc/letsencrypt/live/softworldusa.com/fullchain.pem
 ```
 
 ---
@@ -121,9 +121,9 @@ sudo openssl x509 -enddate -noout -in /etc/letsencrypt/live/smoothteky.com/fullc
 
 | Description       | Path or Command                            |
 |-------------------|--------------------------------------------|
-| Vue.js repo       | `/home/ubuntu/smoothtech`                  |
+| Vue.js repo       | `/home/ubuntu/Softworld`                  |
 | Public files      | `/var/www/vue-app`                         |
-| SSL cert location | `/etc/letsencrypt/live/smoothteky.com/`    |
+| SSL cert location | `/etc/letsencrypt/live/softworldusa.com/`    |
 | Nginx config      | `/etc/nginx/sites-enabled/default`         |
 | Nginx error logs  | `sudo tail -n 50 /var/log/nginx/error.log` |
 

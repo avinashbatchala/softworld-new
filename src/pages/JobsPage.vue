@@ -18,7 +18,7 @@
     <section class="section careers-section">
       <div class="container">
         <h2 class="section-title">We're Always <span class="accent-text">Looking</span></h2>
-        <p class="section-description">At SmoothTech, we're constantly seeking talented professionals across the technology spectrum who are passionate about innovation and excellence.</p>
+        <p class="section-description">At Softworld, we're constantly seeking talented professionals across the technology spectrum who are passionate about innovation and excellence.</p>
 
         <div class="careers-grid">
           <div class="career-card">
@@ -156,7 +156,7 @@
 
           <div class="culture-content">
             <h2>Our <span class="accent-text">Culture</span></h2>
-            <p>At SmoothTech, we foster a culture of innovation, collaboration, and continuous improvement. We believe in empowering our team members to take ownership of their work and make meaningful contributions.</p>
+            <p>At Softworld, we foster a culture of innovation, collaboration, and continuous improvement. We believe in empowering our team members to take ownership of their work and make meaningful contributions.</p>
             <p>We value diversity of thought, background, and experience, creating an inclusive environment where everyone feels welcome and can do their best work.</p>
             <a href="/about" class="btn-outline mt-3">Learn About Our Team</a>
           </div>

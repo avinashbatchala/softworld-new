@@ -18,7 +18,7 @@
         <div class="footer-section brand-section">
           <div class="footer-logo">
             <div class="logo-mark">ST</div>
-            <span class="logo-text">SmoothTech</span>
+            <span class="logo-text">Softworld</span>
           </div>
           <p class="tagline">Your partner in innovative technology solutions that inspire and transform businesses.</p>
           <div class="social-icons">
@@ -76,7 +76,7 @@
             </p>
             <p class="contact-line">
               <span class="contact-icon">✉️</span>
-              <a href="mailto:info@SmoothTech.com">info@SmoothTech.com</a>
+              <a href="mailto:info@Softworld.com">info@Softworld.com</a>
             </p>
             <p class="contact-line">
               <span class="contact-icon">📞</span>
@@ -87,7 +87,7 @@
       </div>
 
       <div class="footer-bottom">
-        <p class="copyright">&copy; {{ new Date().getFullYear() }} SmoothTech. All rights reserved.</p>
+        <p class="copyright">&copy; {{ new Date().getFullYear() }} Softworld. All rights reserved.</p>
         <div class="meta-links">
           <router-link to="/privacy">Privacy Policy</router-link>
           <router-link to="/terms">Terms of Service</router-link>
