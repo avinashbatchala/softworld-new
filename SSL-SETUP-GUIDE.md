@@ -1,4 +1,4 @@
-# 🔒 SSL/HTTPS Setup Guide for softworldusa.com
+# 🔒 SSL/HTTPS Setup Guide for softworldtechnologies.com
 
 This guide walks you through setting up SSL certificates using Let's Encrypt and enabling HTTPS on your EC2 instance.
 
@@ -8,7 +8,7 @@ This guide walks you through setting up SSL certificates using Let's Encrypt and
 
 Before setting up SSL, ensure:
 
-✅ Your domain (`softworldusa.com`) DNS is pointing to your EC2 instance IP  
+✅ Your domain (`softworldtechnologies.com`) DNS is pointing to your EC2 instance IP  
 ✅ Port 80 (HTTP) and Port 443 (HTTPS) are open in your EC2 Security Group  
 ✅ Nginx is installed and running  
 ✅ You have SSH access to your EC2 instance  
@@ -42,7 +42,7 @@ Before setting up SSL, ensure:
 5. **Edit the email address in the script (optional but recommended):**
    ```bash
    nano setup-ssl.sh
-   # Change EMAIL="info@softworldusa.com" to your actual email
+   # Change EMAIL="info@softworldtechnologies.com" to your actual email
    ```
 
 6. **Run the SSL setup script:**
@@ -52,7 +52,7 @@ Before setting up SSL, ensure:
 
 The script will:
 - Install Certbot and Nginx plugin
-- Obtain SSL certificates for `softworldusa.com` and `www.softworldusa.com`
+- Obtain SSL certificates for `softworldtechnologies.com` and `www.softworldtechnologies.com`
 - Automatically configure Nginx for HTTPS
 - Set up automatic certificate renewal
 - Redirect all HTTP traffic to HTTPS
@@ -85,8 +85,8 @@ Replace `your-email@example.com` with your actual email:
 
 ```bash
 sudo certbot --nginx \
-    -d softworldusa.com \
-    -d www.softworldusa.com \
+    -d softworldtechnologies.com \
+    -d www.softworldtechnologies.com \
     --email your-email@example.com \
     --agree-tos \
     --redirect
@@ -130,20 +130,20 @@ Add this line to renew certificates twice daily:
 ## 🔍 Verify HTTPS is Working
 
 1. **Open your browser and visit:**
-   - https://softworldusa.com
-   - https://www.softworldusa.com
+   - https://softworldtechnologies.com
+   - https://www.softworldtechnologies.com
 
 2. **Check for the padlock icon** in the address bar
 
 3. **Test HTTP to HTTPS redirect:**
    ```bash
-   curl -I http://softworldusa.com
+   curl -I http://softworldtechnologies.com
    ```
    Should show a 301/302 redirect to HTTPS
 
 4. **Test SSL certificate details:**
    ```bash
-   curl -vI https://softworldusa.com
+   curl -vI https://softworldtechnologies.com
    ```
 
 ---
@@ -153,7 +153,7 @@ Add this line to renew certificates twice daily:
 ### Check Certificate Expiry Date
 
 ```bash
-sudo openssl x509 -enddate -noout -in /etc/letsencrypt/live/softworldusa.com/fullchain.pem
+sudo openssl x509 -enddate -noout -in /etc/letsencrypt/live/softworldtechnologies.com/fullchain.pem
 ```
 
 ### View All Certificates
@@ -193,8 +193,8 @@ sudo systemctl reload nginx
 **Solution:**
 1. Verify DNS is pointing to your EC2 IP:
    ```bash
-   nslookup softworldusa.com
-   dig softworldusa.com
+   nslookup softworldtechnologies.com
+   dig softworldtechnologies.com
    ```
 
 2. Check ports 80 and 443 are open:
@@ -244,9 +244,9 @@ sudo systemctl restart nginx
 
 | Item | Location |
 |------|----------|
-| SSL Certificates | `/etc/letsencrypt/live/softworldusa.com/` |
-| Certificate Private Key | `/etc/letsencrypt/live/softworldusa.com/privkey.pem` |
-| Full Chain Certificate | `/etc/letsencrypt/live/softworldusa.com/fullchain.pem` |
+| SSL Certificates | `/etc/letsencrypt/live/softworldtechnologies.com/` |
+| Certificate Private Key | `/etc/letsencrypt/live/softworldtechnologies.com/privkey.pem` |
+| Full Chain Certificate | `/etc/letsencrypt/live/softworldtechnologies.com/fullchain.pem` |
 | Certbot Config | `/etc/letsencrypt/` |
 | Nginx Config | `/etc/nginx/sites-available/vue-app` |
 | Renewal Configs | `/etc/letsencrypt/renewal/` |
@@ -307,7 +307,7 @@ ssl_ciphers 'ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECD
 ### 4. Regular Security Audits
 
 Test your SSL configuration:
-- Visit: https://www.ssllabs.com/ssltest/analyze.html?d=softworldusa.com
+- Visit: https://www.ssllabs.com/ssltest/analyze.html?d=softworldtechnologies.com
 
 ---
 
@@ -349,7 +349,7 @@ If you encounter issues:
 
 After setting up SSL, verify:
 
-- [ ] Site loads via HTTPS (https://softworldusa.com)
+- [ ] Site loads via HTTPS (https://softworldtechnologies.com)
 - [ ] HTTP redirects to HTTPS
 - [ ] No mixed content warnings in browser console
 - [ ] Certificate is valid and trusted (green padlock)

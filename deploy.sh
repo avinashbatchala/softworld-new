@@ -46,7 +46,7 @@ echo "Creating Nginx site configuration..."
 sudo tee /etc/nginx/sites-available/vue-app > /dev/null << EOF
 server {
     listen 80;
-    server_name softworldusa.com www.softworldusa.com;
+    server_name softworldtechnologies.com www.softworldtechnologies.com;
 
     root ${APP_DIR}/dist;
     index index.html;

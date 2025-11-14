@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# SSL Certificate Setup Script for softworldusa.com
+# SSL Certificate Setup Script for softworldtechnologies.com
 # This script installs Certbot and configures SSL/HTTPS for Nginx
 
 set -e  # Exit on any error
 
 echo "========================================"
-echo "SSL Certificate Setup for softworldusa.com"
+echo "SSL Certificate Setup for softworldtechnologies.com"
 echo "========================================"
 
 # Check if running as root or with sudo
@@ -16,8 +16,8 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 # Variables
-DOMAIN="softworldusa.com"
-WWW_DOMAIN="www.softworldusa.com"
+DOMAIN="softworldtechnologies.com"
+WWW_DOMAIN="www.softworldtechnologies.com"
 EMAIL="info@softworldusa.com"  # Change this to your admin email
 APP_DIR="/home/ubuntu/softworld-new"
 

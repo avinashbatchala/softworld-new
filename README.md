@@ -1,4 +1,4 @@
-# Deployment Guide for softworldusa.com
+# Deployment Guide for softworldtechnologies.com
 
 This guide explains how to update and redeploy the Vue.js app hosted on an EC2 instance and maintain HTTPS using Let's Encrypt.
 
@@ -88,7 +88,7 @@ Reload Nginx:
 sudo systemctl reload nginx
 ```
 
-The new version should now be live at `https://softworldusa.com`
+The new version should now be live at `https://softworldtechnologies.com`
 
 ---
 
@@ -124,7 +124,7 @@ Make sure:
 | Vue.js repo       | `/home/ubuntu/softworld-new`              |
 See **[SSL-SETUP-GUIDE.md](SSL-SETUP-GUIDE.md)** for detailed manual setup instructions and troubleshooting.
 | SSL Setup Script  | `/home/ubuntu/softworld-new/setup-ssl.sh` |
-| SSL cert location | `/etc/letsencrypt/live/softworldusa.com/` |
+| SSL cert location | `/etc/letsencrypt/live/softworldtechnologies.com/` |
 | Nginx config      | `/etc/nginx/sites-available/vue-app`      |
 | Nginx error logs  | `sudo tail -n 50 /var/log/nginx/vue-app-error.log` |
 | Vue app error log | `/var/log/nginx/vue-app-error.log`        |
@@ -154,7 +154,7 @@ sudo certbot renew
 ### 🔍 Check Expiry Date:
 
 ```bash
-sudo openssl x509 -enddate -noout -in /etc/letsencrypt/live/softworldusa.com/fullchain.pem
+sudo openssl x509 -enddate -noout -in /etc/letsencrypt/live/softworldtechnologies.com/fullchain.pem
 ```
 
 ### Force Renewal (if certificate needs immediate renewal):
@@ -172,7 +172,7 @@ sudo systemctl reload nginx
 |-------------------|--------------------------------------------|
 | Vue.js repo       | `/home/ubuntu/Softworld`                  |
 | Public files      | `/var/www/vue-app`                         |
-| SSL cert location | `/etc/letsencrypt/live/softworldusa.com/`    |
+| SSL cert location | `/etc/letsencrypt/live/softworldtechnologies.com/`    |
 | Nginx config      | `/etc/nginx/sites-enabled/default`         |
 | Nginx error logs  | `sudo tail -n 50 /var/log/nginx/error.log` |
 
