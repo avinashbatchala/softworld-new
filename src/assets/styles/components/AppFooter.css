@@ -1,0 +1,379 @@
+/* Enhanced AppFooter.css with Teenage Engineering aesthetics */
+
+.footer {
+  background-color: var(--color-primary);
+  color: var(--color-gray-70);
+  font-family: var(--font-primary);
+  border-top: 1px solid var(--color-gray-20);
+  position: relative;
+}
+
+/* Mechanical top section with precise borders */
+.footer-top {
+  background: linear-gradient(to right, rgba(15, 76, 129, 0.02), rgba(56, 189, 248, 0.03));
+  padding: calc(var(--space-unit) * 6) 0;
+  margin-bottom: calc(var(--space-unit) * 6);
+  border-top: 1px solid var(--color-gray-20);
+  border-bottom: 1px solid var(--color-gray-20);
+  position: relative;
+}
+
+/* TE-inspired newsletter section */
+.newsletter-section {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.newsletter-section h3 {
+  color: var(--color-dark);
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: calc(var(--space-unit) * 1.5);
+  letter-spacing: -0.01em;
+}
+
+.newsletter-section p {
+  color: var(--color-gray-70);
+  margin-bottom: calc(var(--space-unit) * 4);
+  font-size: 1rem;
+  position: relative;
+}
+
+/* Modernized input form with TE mechanical style */
+.newsletter-form {
+  display: flex;
+  gap: calc(var(--space-unit));
+  max-width: 480px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.newsletter-form input {
+  flex: 1;
+  height: calc(var(--space-unit) * 6);
+  padding: 0 calc(var(--space-unit) * 2);
+  border: 1px solid var(--color-gray-20);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  background-color: var(--color-primary);
+  color: var(--color-gray-70);
+  transition: all var(--transition-fast);
+  letter-spacing: 0.03em;
+}
+
+.newsletter-form input:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px rgba(15, 76, 129, 0.1);
+}
+
+/* TE hardware-inspired button */
+.newsletter-form .btn-accent {
+  background: var(--color-accent);
+  color: var(--color-primary);
+  padding: 0 calc(var(--space-unit) * 3);
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  font-family: var(--font-mono);
+  cursor: pointer;
+  border: none;
+  height: calc(var(--space-unit) * 6);
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+  font-size: 0.8rem;
+  transition: all var(--transition-standard);
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-form .btn-accent:hover {
+  transform: translateY(-2px);
+  background: var(--color-dark);
+  box-shadow: var(--shadow-md);
+}
+
+/* Precise grid layout typical of TE products */
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr repeat(3, 1fr) 1.5fr;
+  gap: calc(var(--space-unit) * 4);
+  margin-bottom: calc(var(--space-unit) * 6);
+}
+
+/* Section headings with mechanical-style underlines */
+.footer-section h4 {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: calc(var(--space-unit) * 3);
+  color: var(--color-dark);
+  position: relative;
+  padding-bottom: calc(var(--space-unit));
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.footer-section h4::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(var(--space-unit) * 3);
+  height: 2px;
+  background: var(--color-accent);
+  border-radius: 0;
+}
+
+.brand-section {
+  padding-right: calc(var(--space-unit) * 4);
+}
+
+/* Redesigned logo with TE-inspired enclosure */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: calc(var(--space-unit) * 3);
+}
+
+.footer-logo .logo-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(var(--space-unit) * 5);
+  height: calc(var(--space-unit) * 5);
+  background: var(--color-accent);
+  color: var(--color-primary);
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: var(--radius-sm);
+  margin-right: calc(var(--space-unit) * 1.5);
+  border: none;
+}
+
+.footer-logo .logo-text {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 1.25rem;
+  letter-spacing: -0.02em;
+  color: var(--color-dark);
+}
+
+.tagline {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-gray-70);
+  margin-bottom: calc(var(--space-unit) * 4);
+  padding-left: calc(var(--space-unit) * 1);
+  border-left: 2px solid var(--color-gray-20);
+}
+
+/* Social icons with TE signature squared style */
+.social-icons {
+  display: flex;
+  gap: calc(var(--space-unit) * 1.5);
+}
+
+.social-icon:hover {
+  background: var(--color-accent);
+  color: var(--color-primary);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+/* Enhanced footer links with mechanical transitions */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: calc(var(--space-unit) * 2);
+}
+
+.footer-links a {
+  color: var(--color-gray-70);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all var(--transition-standard);
+  display: inline-block;
+  position: relative;
+  padding-left: calc(var(--space-unit) * 1.5);
+  font-family: var(--font-primary);
+}
+
+.footer-links a::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--color-accent);
+  opacity: 0;
+  transform: translateX(-8px);
+  transition: all var(--transition-standard);
+  font-family: var(--font-mono);
+}
+
+.footer-links a:hover {
+  color: var(--color-dark);
+  transform: translateX(4px);
+}
+
+.footer-links a:hover::before {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Contact info with TE hardware panel styling */
+/* Updated contact section to match other footer sections */
+.contact-section {
+  font-style: normal;
+}
+
+.contact-line {
+  font-size: 0.9rem;
+  margin-bottom: calc(var(--space-unit) * 2);
+  color: var(--color-gray-70);
+  display: flex;
+  align-items: flex-start;
+  font-family: var(--font-primary);
+}
+
+.contact-line:last-child {
+  margin-bottom: 0;
+}
+
+.contact-icon {
+  margin-right: calc(var(--space-unit) * 1.5);
+  font-size: 1rem;
+  flex-shrink: 0;
+  color: var(--color-accent);
+}
+
+.contact-section a {
+  color: var(--color-gray-70);
+  text-decoration: none;
+  transition: all var(--transition-standard);
+  position: relative;
+  display: inline-block;
+  padding-left: 0;
+}
+
+.contact-section a:hover {
+  color: var(--color-dark);
+  transform: translateX(4px);
+}
+
+/* Remove the address styling that makes it stand out */
+.contact-section address {
+  font-style: normal;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* Clean bottom bar with mechanical precision */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: calc(var(--space-unit) * 3);
+  padding-bottom: calc(var(--space-unit) * 3);
+  border-top: 1px solid var(--color-gray-20);
+  background: linear-gradient(to right, var(--color-primary), rgba(247, 249, 252, 0.5));
+}
+
+.copyright {
+  font-size: 0.8rem;
+  color: var(--color-gray-40);
+  margin: 0;
+  font-family: var(--font-mono);
+  letter-spacing: 0.03em;
+}
+
+.meta-links {
+  display: flex;
+  gap: calc(var(--space-unit) * 3);
+}
+
+.meta-links a {
+  font-size: 0.8rem;
+  color: var(--color-gray-40);
+  text-decoration: none;
+  transition: color var(--transition-standard);
+  font-family: var(--font-mono);
+  letter-spacing: 0.03em;
+}
+
+.meta-links a:hover {
+  color: var(--color-accent);
+}
+
+/* Responsive adjustments with precise breakpoints */
+@media (max-width: 1200px) {
+  .footer-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .brand-section {
+    grid-column: span 3;
+  }
+
+  .contact-section {
+    grid-column: span 3;
+    margin-top: calc(var(--space-unit) * 2);
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .brand-section {
+    grid-column: span 2;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-form input,
+  .newsletter-form .btn-accent {
+    width: 100%;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: calc(var(--space-unit) * 3);
+  }
+
+  .meta-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-section {
+    grid-column: span 1;
+  }
+
+  .meta-links {
+    gap: calc(var(--space-unit) * 2);
+  }
+
+  .contact-section {
+    grid-column: span 1;
+  }
+}
