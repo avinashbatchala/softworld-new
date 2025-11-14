@@ -28,18 +28,67 @@ sudo apt update
 sudo apt install -y certbot python3-certbot-nginx
 
 echo ""
-echo "Step 2: Checking Nginx configuration..."
+echo "Step 2: Backing up current Nginx configuration..."
+echo "--------------------------------------"
+sudo cp /etc/nginx/sites-available/vue-app /etc/nginx/sites-available/vue-app.backup.$(date +%Y%m%d_%H%M%S)
+
+echo ""
+echo "Step 3: Creating temporary HTTP-only Nginx configuration..."
+echo "--------------------------------------"
+# Create a simple HTTP-only config for Certbot verification
+sudo tee /etc/nginx/sites-available/vue-app > /dev/null << 'EOF'
+server {
+    listen 80;
+    server_name softworldtechnologies.com www.softworldtechnologies.com;
+
+    root /home/ubuntu/softworld-new/dist;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    # Location for Certbot verification
+    location ~ /.well-known/acme-challenge/ {
+        allow all;
+        root /var/lib/letsencrypt/;
+    }
+
+    location ~* \.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$ {
+        expires 1y;
+        add_header Cache-Control "public, immutable";
+        try_files $uri =404;
+    }
+
+    error_log /var/log/nginx/vue-app-error.log;
+    access_log /var/log/nginx/vue-app-access.log;
+}
+EOF
+
+echo ""
+echo "Step 4: Creating Certbot webroot directory..."
+echo "--------------------------------------"
+sudo mkdir -p /var/lib/letsencrypt
+sudo chown -R www-data:www-data /var/lib/letsencrypt
+
+echo ""
+echo "Step 5: Testing Nginx configuration..."
 echo "--------------------------------------"
 sudo nginx -t
 
 echo ""
-echo "Step 3: Ensuring Nginx is running..."
+echo "Step 6: Restarting Nginx with HTTP-only configuration..."
 echo "--------------------------------------"
-sudo systemctl start nginx
+sudo systemctl restart nginx
 sudo systemctl status nginx --no-pager
 
 echo ""
-echo "Step 4: Obtaining SSL certificate from Let's Encrypt..."
+echo "Step 7: Waiting for Nginx to be fully ready..."
+echo "--------------------------------------"
+sleep 3
+
+echo ""
+echo "Step 8: Obtaining SSL certificate from Let's Encrypt..."
 echo "--------------------------------------"
 echo "Domain: $DOMAIN and $WWW_DOMAIN"
 echo "Email: $EMAIL"
@@ -55,17 +104,17 @@ sudo certbot --nginx \
     --redirect
 
 echo ""
-echo "Step 5: Verifying SSL certificate..."
+echo "Step 9: Verifying SSL certificate..."
 echo "--------------------------------------"
 sudo certbot certificates
 
 echo ""
-echo "Step 6: Testing automatic renewal..."
+echo "Step 10: Testing automatic renewal..."
 echo "--------------------------------------"
 sudo certbot renew --dry-run
 
 echo ""
-echo "Step 7: Setting up automatic renewal cron job..."
+echo "Step 11: Setting up automatic renewal cron job..."
 echo "--------------------------------------"
 # Check if cron job already exists
 if ! sudo crontab -l 2>/dev/null | grep -q "certbot renew"; then
@@ -77,7 +126,7 @@ else
 fi
 
 echo ""
-echo "Step 8: Reloading Nginx with new SSL configuration..."
+echo "Step 12: Reloading Nginx with new SSL configuration..."
 echo "--------------------------------------"
 sudo systemctl reload nginx
 
