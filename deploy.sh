@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Deployment script for Smooth Tech Services Vue app
+# Deployment script for softworld Services Vue app
 # Run this after cloning the repository
 
 # Set variables

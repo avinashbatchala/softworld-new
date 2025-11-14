@@ -1,4 +1,3 @@
-
 # Deployment Guide for softworldusa.com
 
 This guide explains how to update and redeploy the Vue.js app hosted on an EC2 instance and maintain HTTPS using Let's Encrypt.
@@ -93,9 +92,52 @@ The new version should now be live at `https://softworldusa.com`
 
 ---
 
+## 🔒 SSL/HTTPS Setup
+
+### First Time SSL Setup
+
+If you haven't set up SSL yet or need to create a new certificate:
+
+#### Quick Setup (Recommended)
+
+```bash
+# On your EC2 instance, run the automated SSL setup script:
+cd /home/ubuntu/softworld-new
+sudo ./setup-ssl.sh
+```
+
+The script will:
+- Install Certbot and required plugins
+- Obtain SSL certificates from Let's Encrypt
+- Configure Nginx for HTTPS
+- Set up automatic certificate renewal
+- Redirect HTTP to HTTPS
+
+#### Before Running the Script
+
+Make sure:
+- Your domain DNS points to your EC2 IP address
+- Ports 80 and 443 are open in EC2 Security Group
+- Nginx is installed and running
+
+#### Manual Setup
+| Vue.js repo       | `/home/ubuntu/softworld-new`              |
+See **[SSL-SETUP-GUIDE.md](SSL-SETUP-GUIDE.md)** for detailed manual setup instructions and troubleshooting.
+| SSL Setup Script  | `/home/ubuntu/softworld-new/setup-ssl.sh` |
+| SSL cert location | `/etc/letsencrypt/live/softworldusa.com/` |
+| Nginx config      | `/etc/nginx/sites-available/vue-app`      |
+| Nginx error logs  | `sudo tail -n 50 /var/log/nginx/vue-app-error.log` |
+| Vue app error log | `/var/log/nginx/vue-app-error.log`        |
+| Vue app access log| `/var/log/nginx/vue-app-access.log`       |
 ## Renew HTTPS Certificate
 
-Let's Encrypt SSL certs auto-renew, but here’s how to manually check or renew.
+Let's Encrypt SSL certs auto-renew, but here's how to manually check or renew.
+
+### Check Certificate Status:
+
+```bash
+sudo certbot certificates
+```
 
 ### Dry Run (test renewal):
 
@@ -113,6 +155,13 @@ sudo certbot renew
 
 ```bash
 sudo openssl x509 -enddate -noout -in /etc/letsencrypt/live/softworldusa.com/fullchain.pem
+```
+
+### Force Renewal (if certificate needs immediate renewal):
+
+```bash
+sudo certbot renew --force-renewal
+sudo systemctl reload nginx
 ```
 
 ---
