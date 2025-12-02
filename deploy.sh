@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Deployment script for Smooth Tech Services Vue app
+# Deployment script for softworld Services Vue app
 # Run this after cloning the repository
 
 # Set variables
@@ -46,7 +46,7 @@ echo "Creating Nginx site configuration..."
 sudo tee /etc/nginx/sites-available/vue-app > /dev/null << EOF
 server {
     listen 80;
-    server_name smoothteky.com www.smoothteky.com;
+    server_name softworldtechnologies.com www.softworldtechnologies.com;
 
     root ${APP_DIR}/dist;
     index index.html;
