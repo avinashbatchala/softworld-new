@@ -128,8 +128,18 @@
                 <i class="icon-location"></i>
               </div>
               <div class="info-content">
-                <h3>Our Office</h3>
-                <p>60 Swackhammer Way<br>Budd Lake, NJ 07828</p>
+                <h3>Corporate Office</h3>
+                <p>699 Walnut St, Suite 400<br>Des Moines, IA 50309</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <i class="icon-location"></i>
+              </div>
+              <div class="info-content">
+                <h3>Branch Office</h3>
+                <p>1700 Alma Dr, Suite 460<br>Plano, TX 75075</p>
               </div>
             </div>
 
@@ -139,7 +149,7 @@
               </div>
               <div class="info-content">
                 <h3>Phone</h3>
-                <p><a href="tel:+14155550123">(415) 555-0123</a><br>
+                <p><a href="tel:+15157087427">(515) 708-7427</a><br>
                   <span class="info-detail">Monday-Friday, 8am-6pm ET</span></p>
               </div>
             </div>
@@ -150,7 +160,7 @@
               </div>
               <div class="info-content">
                 <h3>Email</h3>
-                <p><a href="mailto:info@SmoothTech.com">info@SmoothTech.com</a><br>
+                <p><a href="mailto:contact@softworldusa.com">contact@softworldusa.com</a><br>
                   <span class="info-detail">We'll respond within 24 hours</span></p>
               </div>
             </div>
@@ -186,7 +196,7 @@
       </div>
       <div class="map-container">
         <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.8742856789456!2d-74.60982!3d40.8656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c39a8b77c8f4d3%3A0x7a8b77c8f4d39c!2s60%20Swackhammer%20Way%2C%20Budd%20Lake%2C%20NJ%2007828!5e0!3m2!1sen!2sus!4v1746025217654!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.8!2d-93.6289!3d41.5868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87ee99a4c1a1c1c1%3A0x1c1c1c1c1c1c1c1c!2s699%20Walnut%20St%20%23400%2C%20Des%20Moines%2C%20IA%2050309!5e0!3m2!1sen!2sus!4v1746025217654!5m2!1sen!2sus"
             width="100%"
             height="100%"
             style="border:0;"
@@ -202,9 +212,9 @@
               <i class="icon-location"></i>
             </div>
             <div class="map-info-content">
-              <h3>SmoothTech HQ</h3>
-              <p>60 Swackhammer Way<br>Budd Lake, NJ 07828</p>
-              <a href="https://maps.google.com/?q=60+Swackhammer+Way,+Budd+Lake,+NJ+07828" target="_blank" class="map-directions">Get Directions →</a>
+              <h3>Corporate Office</h3>
+              <p>699 Walnut St, Suite 400<br>Des Moines, IA 50309</p>
+              <a href="https://maps.google.com/?q=699+Walnut+St+Suite+400,+Des+Moines,+IA+50309" target="_blank" class="map-directions">Get Directions →</a>
             </div>
           </div>
         </div>

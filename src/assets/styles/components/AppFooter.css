@@ -235,27 +235,47 @@
   font-style: normal;
 }
 
+.footer-section address {
+  font-style: normal;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
 .contact-line {
   font-size: 0.9rem;
-  margin-bottom: calc(var(--space-unit) * 2);
+  margin-bottom: calc(var(--space-unit) * 2.5);
   color: var(--color-gray-70);
-  display: flex;
-  align-items: flex-start;
+  display: block;
   font-family: var(--font-primary);
+  line-height: 1.6;
 }
 
 .contact-line:last-child {
   margin-bottom: 0;
 }
 
-.contact-icon {
-  margin-right: calc(var(--space-unit) * 1.5);
-  font-size: 1rem;
-  flex-shrink: 0;
-  color: var(--color-accent);
+.contact-line strong {
+  display: block;
+  color: var(--color-dark);
+  font-weight: 600;
+  margin-bottom: calc(var(--space-unit) * 0.5);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
-.contact-section a {
+.contact-icon {
+  margin-right: calc(var(--space-unit) * 1);
+  font-size: 1rem;
+  color: var(--color-accent);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer-section address a {
   color: var(--color-gray-70);
   text-decoration: none;
   transition: all var(--transition-standard);
@@ -264,9 +284,9 @@
   padding-left: 0;
 }
 
-.contact-section a:hover {
+.footer-section address a:hover {
   color: var(--color-dark);
-  transform: translateX(4px);
+  transform: translateX(2px);
 }
 
 /* Remove the address styling that makes it stand out */

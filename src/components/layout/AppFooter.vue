@@ -71,16 +71,20 @@
           <h4>Contact Us</h4>
           <address>
             <p class="contact-line">
-              <span class="contact-icon">📍</span>
-              60 Swackhammer Way<br>Budd Lake, NJ 07828
+              <strong>Corporate Office:</strong><br>
+              699 Walnut St, Suite 400<br>Des Moines, IA 50309
+            </p>
+            <p class="contact-line">
+              <strong>Branch Office:</strong><br>
+              1700 Alma Dr, Suite 460<br>Plano, TX 75075
             </p>
             <p class="contact-line">
               <span class="contact-icon">✉️</span>
-              <a href="mailto:info@SmoothTech.com">info@SmoothTech.com</a>
+              <a href="mailto:contact@softworldusa.com">contact@softworldusa.com</a>
             </p>
             <p class="contact-line">
               <span class="contact-icon">📞</span>
-              <a href="tel:+14155550123">(415) 555-0123</a>
+              <a href="tel:+15157087427">(515) 708-7427</a>
             </p>
           </address>
         </div>
