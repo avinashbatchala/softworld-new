@@ -191,14 +191,14 @@ export default {
       window.particlesJS('particles-js', {
         particles: {
           number: {
-            value: 200,
+            value: 80,
             density: {
               enable: true,
               value_area: 800
             }
           },
           color: {
-            value: "#ffffff"
+            value: "#FFFFFF"
           },
           shape: {
             type: "circle",
@@ -208,26 +208,29 @@ export default {
             }
           },
           opacity: {
-            value: 0.3,
+            value: 0.15,
             random: true,
             anim: {
-              enable: false
+              enable: true,
+              speed: 1,
+              opacity_min: 0.05,
+              sync: false
             }
           },
           size: {
-            value: 3,
+            value: 2,
             random: true
           },
           line_linked: {
             enable: true,
             distance: 150,
-            color: "#ffffff",
-            opacity: 0.4,
+            color: "#FFFFFF",
+            opacity: 0.1,
             width: 1
           },
           move: {
             enable: true,
-            speed: 2,
+            speed: 1.5,
             direction: "none",
             random: false,
             straight: false,

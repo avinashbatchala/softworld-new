@@ -1,20 +1,20 @@
 /* Enhanced AppFooter.css with Teenage Engineering aesthetics */
 
 .footer {
-  background-color: var(--color-primary);
-  color: var(--color-gray-70);
+  background-color: #111111;
+  color: #A0A0A0;
   font-family: var(--font-primary);
-  border-top: 1px solid var(--color-gray-20);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
   position: relative;
 }
 
 /* Mechanical top section with precise borders */
 .footer-top {
-  background: linear-gradient(to right, rgba(15, 76, 129, 0.02), rgba(56, 189, 248, 0.03));
+  background: linear-gradient(to right, rgba(0, 240, 255, 0.03), rgba(124, 58, 237, 0.03));
   padding: calc(var(--space-unit) * 6) 0;
   margin-bottom: calc(var(--space-unit) * 6);
-  border-top: 1px solid var(--color-gray-20);
-  border-bottom: 1px solid var(--color-gray-20);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   position: relative;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .newsletter-section h3 {
-  color: var(--color-dark);
+  color: #FFFFFF;
   font-family: var(--font-mono);
   font-weight: 600;
   font-size: 1.5rem;
@@ -36,7 +36,7 @@
 }
 
 .newsletter-section p {
-  color: var(--color-gray-70);
+  color: #A0A0A0;
   margin-bottom: calc(var(--space-unit) * 4);
   font-size: 1rem;
   position: relative;
@@ -55,26 +55,26 @@
   flex: 1;
   height: calc(var(--space-unit) * 6);
   padding: 0 calc(var(--space-unit) * 2);
-  border: 1px solid var(--color-gray-20);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: var(--radius-sm);
   font-family: var(--font-mono);
   font-size: 0.95rem;
-  background-color: var(--color-primary);
-  color: var(--color-gray-70);
+  background-color: #1A1A1A;
+  color: #FFFFFF;
   transition: all var(--transition-fast);
   letter-spacing: 0.03em;
 }
 
 .newsletter-form input:focus {
   outline: none;
-  border-color: var(--color-accent);
-  box-shadow: 0 0 0 3px rgba(15, 76, 129, 0.1);
+  border-color: #00F0FF;
+  box-shadow: 0 0 0 3px rgba(0, 240, 255, 0.1);
 }
 
 /* TE hardware-inspired button */
 .newsletter-form .btn-accent {
-  background: var(--color-accent);
-  color: var(--color-primary);
+  background: var(--color-text-primary);
+  color: #0A0A0A;
   padding: 0 calc(var(--space-unit) * 3);
   border-radius: var(--radius-sm);
   font-weight: 500;
@@ -86,13 +86,13 @@
   letter-spacing: 0.05em;
   font-size: 0.8rem;
   transition: all var(--transition-standard);
-  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
 }
 
 .newsletter-form .btn-accent:hover {
   transform: translateY(-2px);
-  background: var(--color-dark);
-  box-shadow: var(--shadow-md);
+  background: #E5E5E5;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
 }
 
 /* Precise grid layout typical of TE products */
@@ -110,7 +110,7 @@
   font-weight: 600;
   margin-top: 0;
   margin-bottom: calc(var(--space-unit) * 3);
-  color: var(--color-dark);
+  color: #FFFFFF;
   position: relative;
   padding-bottom: calc(var(--space-unit));
   text-transform: uppercase;
@@ -124,7 +124,7 @@
   left: 0;
   width: calc(var(--space-unit) * 3);
   height: 2px;
-  background: var(--color-accent);
+  background: #FFFFFF;
   border-radius: 0;
 }
 
@@ -145,14 +145,15 @@
   justify-content: center;
   width: calc(var(--space-unit) * 5);
   height: calc(var(--space-unit) * 5);
-  background: var(--color-accent);
-  color: var(--color-primary);
+  background: #FFFFFF;
+  color: #0A0A0A;
   font-family: var(--font-mono);
   font-weight: 600;
   font-size: 1rem;
   border-radius: var(--radius-sm);
   margin-right: calc(var(--space-unit) * 1.5);
   border: none;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
 }
 
 .footer-logo .logo-text {
@@ -160,16 +161,16 @@
   font-weight: 600;
   font-size: 1.25rem;
   letter-spacing: -0.02em;
-  color: var(--color-dark);
+  color: #FFFFFF;
 }
 
 .tagline {
   font-size: 0.95rem;
   line-height: 1.6;
-  color: var(--color-gray-70);
+  color: #A0A0A0;
   margin-bottom: calc(var(--space-unit) * 4);
   padding-left: calc(var(--space-unit) * 1);
-  border-left: 2px solid var(--color-gray-20);
+  border-left: 2px solid rgba(255, 255, 255, 0.15);
 }
 
 /* Social icons with TE signature squared style */
@@ -179,10 +180,10 @@
 }
 
 .social-icon:hover {
-  background: var(--color-accent);
-  color: var(--color-primary);
+  background: #FFFFFF;
+  color: #0A0A0A;
   transform: translateY(-3px);
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
 }
 
 /* Enhanced footer links with mechanical transitions */
@@ -197,7 +198,7 @@
 }
 
 .footer-links a {
-  color: var(--color-gray-70);
+  color: #A0A0A0;
   text-decoration: none;
   font-size: 0.9rem;
   transition: all var(--transition-standard);
@@ -212,7 +213,7 @@
   position: absolute;
   left: 0;
   top: 0;
-  color: var(--color-accent);
+  color: #00F0FF;
   opacity: 0;
   transform: translateX(-8px);
   transition: all var(--transition-standard);
@@ -220,7 +221,7 @@
 }
 
 .footer-links a:hover {
-  color: var(--color-dark);
+  color: #FFFFFF;
   transform: translateX(4px);
 }
 
@@ -238,7 +239,7 @@
 .contact-line {
   font-size: 0.9rem;
   margin-bottom: calc(var(--space-unit) * 2);
-  color: var(--color-gray-70);
+  color: #A0A0A0;
   display: flex;
   align-items: flex-start;
   font-family: var(--font-primary);
@@ -252,11 +253,11 @@
   margin-right: calc(var(--space-unit) * 1.5);
   font-size: 1rem;
   flex-shrink: 0;
-  color: var(--color-accent);
+  color: #FFFFFF;
 }
 
 .contact-section a {
-  color: var(--color-gray-70);
+  color: #A0A0A0;
   text-decoration: none;
   transition: all var(--transition-standard);
   position: relative;
@@ -265,7 +266,7 @@
 }
 
 .contact-section a:hover {
-  color: var(--color-dark);
+  color: #FFFFFF;
   transform: translateX(4px);
 }
 
@@ -285,13 +286,13 @@
   align-items: center;
   padding-top: calc(var(--space-unit) * 3);
   padding-bottom: calc(var(--space-unit) * 3);
-  border-top: 1px solid var(--color-gray-20);
-  background: linear-gradient(to right, var(--color-primary), rgba(247, 249, 252, 0.5));
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(to right, #0A0A0A, rgba(17, 17, 17, 0.5));
 }
 
 .copyright {
   font-size: 0.8rem;
-  color: var(--color-gray-40);
+  color: #666666;
   margin: 0;
   font-family: var(--font-mono);
   letter-spacing: 0.03em;
@@ -304,7 +305,7 @@
 
 .meta-links a {
   font-size: 0.8rem;
-  color: var(--color-gray-40);
+  color: #666666;
   text-decoration: none;
   transition: color var(--transition-standard);
   font-family: var(--font-mono);
@@ -312,7 +313,7 @@
 }
 
 .meta-links a:hover {
-  color: var(--color-accent);
+  color: #FFFFFF;
 }
 
 /* Responsive adjustments with precise breakpoints */
