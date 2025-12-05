@@ -6,7 +6,7 @@
       <div class="container">
         <div class="policy-content">
           <h2>1. Introduction</h2>
-          <p>Welcome to SmoothTech. These Terms of Service ("Terms") govern your use of our website, products, and services ("Services"). By accessing or using our Services, you agree to be bound by these Terms. If you disagree with any part of the terms, you may not access our Services.</p>
+          <p>Welcome to Softworld. These Terms of Service ("Terms") govern your use of our website, products, and services ("Services"). By accessing or using our Services, you agree to be bound by these Terms. If you disagree with any part of the terms, you may not access our Services.</p>
 
           <h2>2. Use of Our Services</h2>
           <p>You agree to use our Services only for purposes that are permitted by these Terms and any applicable law, regulation, or generally accepted practices in the relevant jurisdictions.</p>
@@ -15,12 +15,12 @@
             <li>Use our Services in any manner that could disable, overburden, damage, or impair our site or interfere with any other party's use of the Services</li>
             <li>Attempt to gain unauthorized access to any portions of our Services or any related systems or networks</li>
             <li>Collect or track personal information of other users of our Services</li>
-            <li>Impersonate or attempt to impersonate SmoothTech, a SmoothTech employee, another user, or any other person or entity</li>
+            <li>Impersonate or attempt to impersonate Softworld, a Softworld employee, another user, or any other person or entity</li>
             <li>Engage in any other conduct that restricts or inhibits anyone's use or enjoyment of our Services</li>
           </ul>
 
           <h2>3. Intellectual Property</h2>
-          <p>The Services and all of their contents, features, and functionality (including but not limited to all information, software, text, displays, images, video, and audio, and the design, selection, and arrangement thereof) are owned by SmoothTech, its licensors, or other providers of such material and are protected by copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.</p>
+          <p>The Services and all of their contents, features, and functionality (including but not limited to all information, software, text, displays, images, video, and audio, and the design, selection, and arrangement thereof) are owned by Softworld, its licensors, or other providers of such material and are protected by copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.</p>
           <p>These Terms permit you to use our Services for your personal, non-commercial use only. You must not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit any of the material on our Services.</p>
 
           <h2>4. User Accounts</h2>
@@ -38,15 +38,15 @@
           </ul>
 
           <h2>6. Links to Third-Party Websites</h2>
-          <p>Our Services may contain links to third-party websites or services that are not owned or controlled by SmoothTech. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites or services.</p>
-          <p>You acknowledge and agree that SmoothTech shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods, or services available on or through any such websites or services.</p>
+          <p>Our Services may contain links to third-party websites or services that are not owned or controlled by Softworld. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites or services.</p>
+          <p>You acknowledge and agree that Softworld shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods, or services available on or through any such websites or services.</p>
 
           <h2>7. Termination</h2>
           <p>We may terminate or suspend your account immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.</p>
           <p>Upon termination, your right to use our Services will immediately cease. If you wish to terminate your account, you may simply discontinue using our Services.</p>
 
           <h2>8. Limitation of Liability</h2>
-          <p>In no event shall SmoothTech, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from:</p>
+          <p>In no event shall Softworld, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from:</p>
           <ul>
             <li>Your access to or use of or inability to access or use our Services</li>
             <li>Any conduct or content of any third party on our Services</li>
@@ -68,7 +68,7 @@
           <h2>12. Contact Us</h2>
           <p>If you have any questions about these Terms, please contact us at:</p>
           <p>
-            Email: <a href="mailto:legal@smoothtech.com">legal@smoothtech.com</a><br>
+            Email: <a href="mailto:legal@Softworld.com">legal@Softworld.com</a><br>
             Phone: (123) 456-7890<br>
             Address: 123 Tech Street, Silicon Valley, CA 94043
           </p>

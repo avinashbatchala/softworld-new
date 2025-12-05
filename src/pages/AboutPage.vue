@@ -22,11 +22,14 @@
         </div>
         <div class="story-grid">
           <div class="story-content">
-            <p class="story-text">Founded with a vision to bridge the gap between businesses and technology talent, we've grown from a small team of passionate specialists to an industry-leading consultancy.</p>
-            <p class="story-text">Our approach combines technical expertise with deep industry knowledge, allowing us to deliver solutions that drive real business impact.</p>
+            <p class="story-text">Originally founded to close the gap between companies and tech talent, we've grown from a small group of committed specialists into a leading consultancy.
+              What began as a small team focused on connecting businesses with technical professionals has expanded into an industry-leading consultancy.
+            </p>
+            <p class="story-text">We combine engineering expertise with deep industry knowledge to build solutions that deliver measurable business results.
+              Our approach integrates technical skill and sector insight to produce solutions that drive tangible business impact.</p>
             <div class="story-highlight">
               <div class="highlight-icon">★</div>
-              <p>We believe in building lasting partnerships with our clients, understanding their unique challenges, and delivering solutions that exceed expectations.</p>
+              <p>We partner closely with clients to grasp their distinct problems and provide solutions that outperform expectations.</p>
             </div>
           </div>
           <div class="story-image">

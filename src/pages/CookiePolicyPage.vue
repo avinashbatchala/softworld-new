@@ -6,11 +6,11 @@
       <div class="container">
         <div class="policy-content">
           <h2>Introduction</h2>
-          <p>This Cookie Policy explains how SmoothTech ("we", "us", or "our") uses cookies and similar technologies to recognize you when you visit our website. It explains what these technologies are and why we use them, as well as your rights to control our use of them.</p>
+          <p>This Cookie Policy explains how Softworld ("we", "us", or "our") uses cookies and similar technologies to recognize you when you visit our website. It explains what these technologies are and why we use them, as well as your rights to control our use of them.</p>
 
           <h2>What Are Cookies?</h2>
           <p>Cookies are small data files that are placed on your computer or mobile device when you visit a website. Cookies are widely used by website owners to make their websites work, or to work more efficiently, as well as to provide reporting information.</p>
-          <p>Cookies set by the website owner (in this case, SmoothTech) are called "first-party cookies". Cookies set by parties other than the website owner are called "third-party cookies". Third-party cookies enable third-party features or functionality to be provided on or through the website (such as advertising, interactive content, and analytics).</p>
+          <p>Cookies set by the website owner (in this case, Softworld) are called "first-party cookies". Cookies set by parties other than the website owner are called "third-party cookies". Third-party cookies enable third-party features or functionality to be provided on or through the website (such as advertising, interactive content, and analytics).</p>
 
           <h2>Why Do We Use Cookies?</h2>
           <p>We use first-party and third-party cookies for several reasons. Some cookies are required for technical reasons in order for our website to operate, and we refer to these as "essential" or "necessary" cookies. Other cookies enable us to track and target the interests of our users to enhance the experience on our site. Third parties serve cookies through our website for advertising, analytics, and other purposes.</p>
@@ -44,7 +44,7 @@
           <h2>Where Can You Get Further Information?</h2>
           <p>If you have any questions about our use of cookies or other technologies, please email us at:</p>
           <p>
-            Email: <a href="mailto:privacy@smoothtech.com">privacy@smoothtech.com</a><br>
+            Email: <a href="mailto:privacy@Softworld.com">privacy@Softworld.com</a><br>
             Phone: (123) 456-7890<br>
             Address: 123 Tech Street, Silicon Valley, CA 94043
           </p>

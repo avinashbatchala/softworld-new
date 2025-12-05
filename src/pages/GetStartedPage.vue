@@ -4,7 +4,7 @@
     <section class="hero-section">
       <div class="container">
         <div class="te-label">Get Started</div>
-        <h1>Join <span class="accent-text">SmoothTech</span></h1>
+        <h1>Join <span class="accent-text">Softworld</span></h1>
         <p>Whether you're looking for top talent or your next opportunity, we're here to connect you with the right match.</p>
       </div>
     </section>

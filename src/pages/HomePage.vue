@@ -5,8 +5,8 @@
       <div id="particles-js" class="particles-container"></div>
       <div class="container">
         <div class="te-label">Innovative Tech Solutions</div>
-        <h1>Connect with <span class="accent-text">Expert Talent</span></h1>
-        <p>We help businesses thrive by connecting them with the right technology expertise.</p>
+        <h1>Hire <span class="accent-text">Experts</span></h1>
+        <p>We enable businesses to prosper by matching them with the right tech talent.</p>
         <div class="button-group">
           <router-link to="/find-talent" class="btn btn-primary">Find Talent</router-link>
           <router-link to="/about" class="btn btn-secondary">Learn More</router-link>

@@ -3,8 +3,8 @@
     <div class="container">
       <div class="logo">
         <router-link to="/">
-          <div class="logo-mark">ST</div>
-          <span class="logo-text">SmoothTech</span>
+          <div class="logo-mark">SW</div>
+          <span class="logo-text">Softworld</span>
         </router-link>
       </div>
 

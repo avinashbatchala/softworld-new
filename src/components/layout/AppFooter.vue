@@ -17,8 +17,8 @@
       <div class="footer-grid">
         <div class="footer-section brand-section">
           <div class="footer-logo">
-            <div class="logo-mark">ST</div>
-            <span class="logo-text">SmoothTech</span>
+            <div class="logo-mark">SW</div>
+            <span class="logo-text">Softworld</span>
           </div>
           <p class="tagline">Your partner in innovative technology solutions that inspire and transform businesses.</p>
           <div class="social-icons">
@@ -91,7 +91,7 @@
       </div>
 
       <div class="footer-bottom">
-        <p class="copyright">&copy; {{ new Date().getFullYear() }} SmoothTech. All rights reserved.</p>
+        <p class="copyright">&copy; {{ new Date().getFullYear() }} Softworld. All rights reserved.</p>
         <div class="meta-links">
           <router-link to="/privacy">Privacy Policy</router-link>
           <router-link to="/terms">Terms of Service</router-link>

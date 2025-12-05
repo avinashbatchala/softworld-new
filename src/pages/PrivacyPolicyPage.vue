@@ -6,7 +6,7 @@
       <div class="container">
         <div class="policy-content">
           <h2>Introduction</h2>
-          <p>At SmoothTech ("we", "our", or "us"), we respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you.</p>
+          <p>At Softworld ("we", "our", or "us"), we respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you.</p>
 
           <h2>Information We Collect</h2>
           <p>We may collect, use, store and transfer different kinds of personal data about you which we have grouped together as follows:</p>
@@ -58,7 +58,7 @@
           <h2>Contact Us</h2>
           <p>If you have any questions about this privacy policy or our privacy practices, please contact us at:</p>
           <p>
-            Email: <a href="mailto:privacy@smoothtech.com">privacy@smoothtech.com</a><br>
+            Email: <a href="mailto:privacy@Softworld.com">privacy@Softworld.com</a><br>
             Phone: (123) 456-7890<br>
             Address: 123 Tech Street, Silicon Valley, CA 94043
           </p>
