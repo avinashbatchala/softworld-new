@@ -2,7 +2,7 @@
   <div class="home-page">
     <!-- Hero section with minimalist Teenage Engineering inspired design -->
     <section class="hero-section">
-      <div id="particles-js" class="particles-container"></div>
+      <!-- <div id="particles-js" class="particles-container"></div> -->
       <div class="container">
         <div class="te-label">Innovative Tech Solutions</div>
         <h1>Hire <span class="accent-text">Experts</span></h1>
