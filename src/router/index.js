@@ -26,12 +26,12 @@ const routes = [
     component: AboutPage,
     meta: { title: 'About Us - Tech Consulting' }
   },
-  {
-    path: '/blogs',
-    name: 'Blogs',
-    component: BlogsPage,
-    meta: { title: 'Blogs - Tech Consulting' }
-  },
+  // {
+  //   path: '/blogs',
+  //   name: 'Blogs',
+  //   component: BlogsPage,
+  //   meta: { title: 'Blogs - Tech Consulting' }
+  // },
   {
     path: '/blog/:id',
     name: 'BlogDetail',

@@ -10,7 +10,7 @@
 
       <nav class="nav-menu" :class="{ 'active': isMenuOpen }">
         <router-link to="/about" class="nav-link" @click="closeMenu">About</router-link>
-        <router-link to="/blogs" class="nav-link" @click="closeMenu">Blog</router-link>
+<!--        <router-link to="/blogs" class="nav-link" @click="closeMenu">Blog</router-link>-->
         <router-link to="/find-talent" class="nav-link" @click="closeMenu">Find Talent</router-link>
         <router-link to="/find-job" class="nav-link" @click="closeMenu">Find Job</router-link>
         <router-link to="/contact" class="nav-link" @click="closeMenu">Contact</router-link>
